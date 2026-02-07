@@ -1,3 +1,0 @@
-dir=${XDG_CONFIG_HOME:-~/.config}/supermodel
-mkdir -p "$dir"
-cd "$dir"
