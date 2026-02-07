@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Supermodel
+Comment="Sega Model 3 arcade emulator"
+Exec=supermodel
+Icon=Real3D_Logo
+Terminal=false
+Categories=Game;Emulation;Arcade
