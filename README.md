@@ -17,7 +17,7 @@
 
 </div>
 
-## ⚠️ If using wayland need to run like WAYLAND_DISPLAY="" ./Supermodel-x-anylinux-x.AppImage` ⚠️
+## ⚠️ If using wayland need to run like `WAYLAND_DISPLAY="" ./Supermodel-x-anylinux-x.AppImage` ⚠️
 
 ---
 
