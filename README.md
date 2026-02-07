@@ -13,7 +13,7 @@
 
 | Latest Nightly Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/Supermodel-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/Anylinux-AppImages) |
+| [Click here](https://github.com/pkgforge-dev/Supermodel-AppImage/releases/latest) | [Click here](https://github.com/trzy/Supermodel) |
 
 </div>
 
