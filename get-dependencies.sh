@@ -14,9 +14,8 @@ get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
 make-aur-package supermodel-git
-ls
 mkdir -p /usr/share/supermodel/Assets
-mv -v Assets/* /usr/share/supermodel/Assets/
+mv -v supermodel-git/Assets/* /usr/share/supermodel/Assets/
 # If the application needs to be manually built that has to be done down here
 
 # if you also have to make nightly releases check for DEVEL_RELEASE = 1
