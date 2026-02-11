@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 VERSION=$(pacman -Q supermodel-git | awk '{print $2; exit}') # example command to get version of application here
 export ARCH VERSION
 export OUTPATH=./dist
-export ADD_HOOKS="self-updater.bg.hook"
+export ADD_HOOKS="self-updater.bg.hook:wayland-is-broken.src.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=https://raw.githubusercontent.com/trzy/Supermodel/refs/heads/master/Docs/Images/Real3D_Logo.png
 export DEPLOY_OPENGL=1
