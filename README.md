@@ -17,7 +17,8 @@
 
 </div>
 
-## ⚠️ If using wayland need to run like `WAYLAND_DISPLAY="" ./Supermodel-x-anylinux-x.AppImage` upstream [issue](https://github.com/trzy/Supermodel/issues/133) ⚠️
+## ⚠️ If using wayland need to run like `WAYLAND_DISPLAY="" ./Supermodel-x-anylinux-x.AppImage` ⚠️
+## ⚠️ Upstream [issue](https://github.com/trzy/Supermodel/issues/133) ⚠️
 
 ---
 
