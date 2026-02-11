@@ -1,0 +1,3 @@
+if [ "$I_WANT_A_BROKEN_WAYLAND_UI" != 1 ]; then
+    export SDL_VIDEO_DRIVER=x11
+fi
