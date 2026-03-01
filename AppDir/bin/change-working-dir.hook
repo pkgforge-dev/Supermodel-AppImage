@@ -1,0 +1,8 @@
+#!/bin/sh
+dir=$CONFIGDIR/supermodel
+mkdir -p "$dir"
+if [ ! -f "$dir"/Config/Games.xml ]; then
+  cp -r "$APPDIR"/bin/Config "$dir"
+  cp -r "$APPDIR"/bin/Assets "$dir"
+fi
+cd "$dir"

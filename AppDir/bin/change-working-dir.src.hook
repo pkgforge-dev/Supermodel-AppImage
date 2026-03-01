@@ -1,8 +1,0 @@
-#!/bin/false
-dir=${XDG_CONFIG_HOME:-~/.config}/supermodel
-if [ ! -f "dir"/Config/Games.xml ]; then
-  mkdir -p "$dir"
-  cp -r "$APPDIR"/bin/Config "$dir"
-  cp -r "$APPDIR"/bin/Assets "$dir"
-fi
-cd "$dir"
