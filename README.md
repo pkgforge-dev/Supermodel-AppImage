@@ -3,7 +3,7 @@
 # Supermodel-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Supermodel-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Supermodel-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/Supermodel-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Supermodel-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/Supermodel-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Supermodel-AppImage/releases/latest)
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/Supermodel-AppImage)](https://github.com/pkgforge-dev/Supermodel-AppImage/releases/latest)
 
 <p align="center">
