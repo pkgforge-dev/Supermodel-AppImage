@@ -8,18 +8,11 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     glu      \
-    sdl2_net \
-    zlib
+    sdl2_net
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano libdecor-mini
-
-# Comment this out if you need an AUR package
-#make-aur-package supermodel-git
-#mkdir -p /usr/share/supermodel/Assets
-#mv -v supermodel-git/src/supermodel/Assets/* /usr/share/supermodel/Assets/
-# If the application needs to be manually built that has to be done down here
 
 echo "Building Supermodel..."
 echo "---------------------------------------------------------------"
