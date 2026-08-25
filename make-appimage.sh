@@ -12,8 +12,9 @@ export ICON=https://raw.githubusercontent.com/trzy/Supermodel/refs/heads/master/
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/supermodel
-mv /usr/share/supermodel/* ./AppDir/bin
+#quick-sharun /usr/bin/supermodel
+#mv /usr/share/supermodel/* ./AppDir/bin
+quick-sharun ./AppDir/bin/*
 
 # Additional changes can be done in between here
 
