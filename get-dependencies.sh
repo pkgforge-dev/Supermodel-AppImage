@@ -18,7 +18,7 @@ echo "Building Supermodel..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/trzy/Supermodel"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
-git clone "$REPO" ./Supermodel
+git clone --depth 1 "$REPO" ./Supermodel
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
